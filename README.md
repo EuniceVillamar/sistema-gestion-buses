@@ -1,14 +1,14 @@
 # Sistema de Gestión de Buses - Proyecto Final
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto es un sistema de gestión de buses desarrollado en C# con arquitectura de tres capas (Modelo-Vista-Controlador). El sistema permite administrar buses, conductores, pasajeros, rutas y boletos de manera eficiente.
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El proyecto está estructurado en tres capas principales:
 
-### 📁 Modelo
+### Modelo
 Contiene las clases de entidad que representan los objetos del dominio:
 - `Bus.cs` - Gestión de buses
 - `Conductor.cs` - Información de conductores
@@ -18,33 +18,33 @@ Contiene las clases de entidad que representan los objetos del dominio:
 - `Ruta.cs` - Definición de rutas
 - `Boleto.cs` - Gestión de boletos
 
-### 📁 Controlador
+### Controlador
 Maneja la lógica de negocio y la comunicación entre la vista y el modelo:
 - `ControlBus.cs` - Controlador para gestión de buses
 - `ControlProgramadores.cs` - Controlador para programadores
 
-### 📁 Vista
+### Vista
 Interfaz de usuario desarrollada con Windows Forms:
 - Formularios para registro, edición, eliminación y listado de buses
 - Interfaz de menú principal
 - Formulario "Acerca de"
 
-### 📁 Datos
+### Datos
 Capa de acceso a datos:
 - `Conexion.cs` - Configuración de conexión a base de datos
 - `DatosBus.cs` - Operaciones de datos para buses
 - `DatosProgramadores.cs` - Operaciones de datos para programadores
 
-## 🚀 Características Principales
+## Características Principales
 
-- ✅ Gestión completa de buses (CRUD)
-- ✅ Administración de conductores
-- ✅ Gestión de pasajeros y boletos
-- ✅ Definición y gestión de rutas
-- ✅ Interfaz gráfica intuitiva
-- ✅ Arquitectura de tres capas
-- ✅ Validaciones de datos
-- ✅ Generación de reportes (iTextSharp)
+- Gestión completa de buses (CRUD)
+- Administración de conductores
+- Gestión de pasajeros y boletos
+- Definición y gestión de rutas
+- Interfaz gráfica intuitiva
+- Arquitectura de tres capas
+- Validaciones de datos
+- Generación de reportes (iTextSharp)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -55,13 +55,13 @@ Capa de acceso a datos:
 - **iTextSharp** - Generación de reportes PDF
 - **BouncyCastle** - Criptografía
 
-## 📦 Dependencias
+## Dependencias
 
 El proyecto utiliza los siguientes paquetes NuGet:
 - `iTextSharp.5.5.13.4` - Para generación de reportes PDF
 - `BouncyCastle.Cryptography.2.4.0` - Para funcionalidades criptográficas
 
-## 🏃‍♂️ Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 ### Prerrequisitos
 - Visual Studio 2019 o superior
@@ -72,8 +72,8 @@ El proyecto utiliza los siguientes paquetes NuGet:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
-   cd "Proyecto Final - Elizabeth Villamar 12"
+   git clone https://github.com/EuniceVillamar/sistema-gestion-buses.git
+   cd "sistema gestion buses"
    ```
 
 2. **Abrir la solución**
@@ -90,10 +90,10 @@ El proyecto utiliza los siguientes paquetes NuGet:
 5. **Compilar y ejecutar**
    - Presionar `F5` o click en "Iniciar depuración"
 
-## 📁 Estructura de Archivos
+## Estructura de Archivos
 
 ```
-Proyecto Final - Elizabeth Villamar 12/
+sistema gestion buses/
 ├── Controlador/          # Lógica de negocio
 ├── Datos/               # Acceso a datos
 ├── Modelo/              # Entidades del dominio
@@ -104,22 +104,4 @@ Proyecto Final - Elizabeth Villamar 12/
 └── *.sln               # Archivo de solución
 ```
 
-## 👥 Autor
-
-**Elizabeth Villamar** - Estudiante de Programación
-
-## 📝 Licencia
-
-Este proyecto es parte de un trabajo académico. Todos los derechos reservados.
-
-## 🤝 Contribuciones
-
-Este es un proyecto académico. Para contribuciones, por favor contactar al autor.
-
-## 📞 Contacto
-
-Para preguntas o sugerencias sobre este proyecto, por favor crear un issue en el repositorio.
-
----
-
-**Nota**: Este proyecto fue desarrollado como parte de un curso académico de programación en C#. 
+**Nota**: Este proyecto fue desarrollado como parte de un curso académico de Programacion Orientada a Eventos. 
